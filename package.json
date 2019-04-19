@@ -1,0 +1,36 @@
+{
+  "name": "mobile-base-layout",
+  "version": "1.0.0",
+  "private": true,
+  "author": "kulelikule",
+  "main": "lib/App.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npx babel src --out-dir lib && npx copyfiles -a -u 1 src/*.css lib",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepublish": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
