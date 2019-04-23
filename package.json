@@ -1,6 +1,6 @@
 {
   "name": "mobile-base-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "kulelikule",
   "main": "lib/App.js",
   "dependencies": {
